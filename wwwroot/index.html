@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/style.css">
+    <link rel="stylesheet" href="/main.css">
+    <title></title>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Raj Gupta (Nokia)</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">1227300.00000000</mso:Order>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Raj Gupta (Nokia)</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:HideFromDelve msdt:dt="string">0</mso:HideFromDelve>
+<mso:ContentTypeId msdt:dt="string">0x010100BB1698D62D3F4345A12A6B71F8F8D7FE</mso:ContentTypeId>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+<mso:MediaLengthInSeconds msdt:dt="string"></mso:MediaLengthInSeconds>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body>
+    <div id="header">
+        <img class="logo" src="/logo.png" alt="Autodesk Forge">
+        <span class="title">Simple Viewer</span>
+        <select name="models" id="models"></select>
+        <button id="upload" title="Upload New Model">Upload</button>
+        <input style="display: none" type="file" id="input">
+    </div>
+    <div id="preview"></div>
+    <div id="overlay"></div>
+    <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/viewer3D.js"></script>
+    <script src="/main.js" type="module"></script>
+</body>
+
+</html>
